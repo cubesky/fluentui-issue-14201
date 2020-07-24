@@ -1,0 +1,4 @@
+- name: "Test"
+  link: https://example.com
+  avatar: https://via.placeholder.com/150
+  descr: "Example"

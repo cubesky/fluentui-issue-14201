@@ -1,0 +1,516 @@
+html,
+body {
+    height: 100%;
+    margin: 0px;
+    overflow-y: hidden;
+}
+
+body:after {
+    content: "";
+    display: block;
+    position: fixed;
+    top: -48px;
+    left: -48px;
+    right: -48px;
+    bottom: -48px;
+    background: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN) no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(24px);
+    opacity: 0.4;
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgba(255, 255, 255, 0.4);
+}
+
+a {
+    color: rgb(0, 120, 212);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgb(0, 135, 238);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(0, 120, 212);
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+*::-webkit-scrollbar {
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar:horizontal {
+    height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    border: 1px rgba(255, 255, 255, 0.4) solid;
+    border-radius: 5px;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 16px;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+*::-webkit-scrollbar-thumb:active {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ly-div-table-limit {
+    height: 700px;
+    overflow: auto;
+}
+
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+    background-color: rgb(220, 220, 220);
+}
+
+table th {
+    padding: 6px 13px;
+    border: 1px solid #aaa;
+    font-weight: bold;
+}
+
+table td {
+    padding: 6px 13px;
+    border: 1px solid #aaa;
+}
+
+table tr:nth-child(2n) {
+    background-color: rgb(250, 250, 250, 0.8);
+}
+
+th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+}
+
+table {
+    display: block;
+    width: 100%;
+    overflow: auto;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+blockquote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 1.5em 10px;
+    padding: 0.5em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    white-space: pre-wrap;
+}
+
+blockquote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+
+blockquote p {
+    display: inline-block;
+}
+
+footer {
+    height: 44px;
+    position: absolute;
+    bottom: 0;
+}
+
+#gatsby-focus-wrapper,
+#___gatsby {
+    width: 100%;
+    height: 100%;
+}
+
+.ly-a-p-2 {
+    padding: 40px;
+}
+
+.ly-a-p-1 {
+    padding: 10px;
+}
+
+.ly-tb-p-1 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.ly-lr-p-1 {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.ly-l-p-2 {
+    padding-left: 20px;
+}
+
+.ly-b-m-2 {
+    margin-bottom: 20px;
+}
+
+.ly-bg-all-transparent {
+    background: transparent !important;
+}
+
+.ly-bg-all-transparent>* {
+    background: transparent !important;
+}
+
+.ly-justify-content {
+    justify-content: center;
+}
+
+.ly-display-block {
+    display: block;
+}
+.ly-display-block-force {
+    display: block !important;
+}
+.ly-full-vh {
+    width: 100vh;
+}
+
+.ly-display-inline-block {
+    display: inline-block;
+}
+
+a.ly-navItem:link {
+    text-decoration: none;
+    color: black;
+}
+
+a.ly-navItem:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a.ly-navItem:hover {
+    text-decoration: none;
+    color: rgb(0, 120, 212);
+}
+
+a.ly-navItem:active {
+    text-decoration: none;
+    color: black;
+}
+
+.ly-sideopen {
+    position: fixed;
+}
+
+.ly-left {
+    min-width: 280px;
+    width: 280px;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+.ly-center {
+    flex: 1;
+    height: 100%;
+}
+
+.ly-container {
+    display: flex;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.ly-main {
+    height: 100vh;
+    word-break: break-all;
+    overflow: auto;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.ly-text-align-center {
+    text-align: center;
+}
+
+.ly-main-left-align {
+    text-align: left;
+}
+
+.ly-main>* {
+    text-align: left;
+}
+
+.ly-width100 {
+    width: 100%;
+}
+
+.ms-DocumentCard {
+    margin: 12px;
+    background-color: rgba(255, 255, 255, 0.7);
+    vertical-align: top;
+}
+
+.ly-force-opacity-1 {
+    opacity: 1;
+}
+.ly-force-opacity-1 > img {
+    opacity: 1;
+}
+
+.ly-gradient-text {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1));
+    background-size: 100%;
+    background-repeat: repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+}
+
+.ly-bg-transparent {
+    background: transparent;
+}
+
+.ly-small-tag {
+    border-radius: 4px;
+    border: #000000;
+    color: #fff;
+    padding: 6px;
+    margin: 4px;
+    background-color: rgba(100, 100, 100, 0.5);
+}
+
+.ly-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.ly-flex {
+    display: flex;
+}
+
+.ly-fit-width {
+    width: fit-content;
+}
+
+.ly-height-100 {
+    height: 100% !important;
+}
+
+.ly-full-center {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    height: 200px;
+}
+
+.ly-content img {
+    display: block;
+    margin: 0 auto;
+}
+
+a.ly-content-btn {
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(0, 140, 255, 0.9);
+    font-family: 'Roboto';
+    font-weight: 50;
+    border: 1px solid #fff;
+    box-shadow: 2px 2px 5px #AFE9FF;
+    transition-duration: 0.5s;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+}
+
+.ly-pre-white-space {
+    white-space: pre;
+}
+
+a.ly-content-btn:hover {
+    color: #dfdfdf;
+    border: 1px solid #006398;
+    box-shadow: 2px 2px 20px #AFE9FF;
+}
+
+audio:focus {
+    outline: none;
+    display: block;
+}
+
+.ms-MessageBar-content {
+    background: transparent;
+    text-align: left;
+}
+
+/**
+ * Add back the container background-color, border-radius, padding, margin
+ * and overflow that we removed from <pre>.
+ */
+.gatsby-highlight {
+    background-color: #fdf6e3;
+    border-radius: 5px;
+    margin: 10px 0;
+    padding: 10px;
+    overflow: auto;
+}
+
+/**
+   * Remove the default PrismJS theme background-color, border-radius, margin,
+   * padding and overflow.
+   * 1. Make the element just wide enough to fit its content.
+   * 2. Always fill the visible space in .gatsby-highlight.
+   * 3. Adjust the position of the line numbers
+   */
+
+  .gatsby-highlight pre[class*="language-"] {
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    overflow: initial;
+    float: left; 
+    min-width: 100%;
+  }
+ 
+/* .gatsby-highlight pre[class*="language-"] {
+    white-space: pre-wrap;
+} */
+
+/**
+ * If you already use line highlighting
+ */
+
+/* Adjust the position of the line numbers */
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    padding-left: 2.8em;
+}
+
+/**
+   * If you only want to use line numbering
+   */
+
+
+.gatsby-highlight pre[class*="language-"].line-numbers {
+    padding: 0;
+    padding-left: 2.8em;
+    overflow: initial;
+}
+
+@media (max-width: 650px) {
+    .ly-lg {
+        display: none;
+    }
+    .ly-main {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .ly-fabric {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 0px;
+    }
+    .ly-card {
+        margin-top: 0;
+    }
+}
+
+.ly-display-none {
+    display: none;
+}
+.ly-sm-identity {
+    height: fit-content;
+    white-space: pre-wrap;
+    text-align: left;
+}
+
+@media (min-width: 650px) {
+    .ly-sm {
+        display: none;
+    }
+    .ly-wrap-fixed {
+        width: 100%;
+        position: sticky;
+        top: 0;
+        background: rgba(0, 0, 0, 0.9);
+        color: #000;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .ly-fabric {
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        padding-left: 15px;
+    }
+}
+
+.ly-fixed-top {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3);
+    width: 100%;
+    position: sticky;
+    top: 0;
+    background: rgba(255, 255, 255, 0.8);
+    color: #000;
+    height: 40px;
+    padding-left: 0;
+    padding-right: 0;
+    line-height: 40px;
+    text-align: center;
+}
+.ly-topbar-container { width:100%; }
+.ly-topbar-left{ 
+    float:left; 
+    text-align: left;
+}
+.ly-topbar-right{ 
+    float:right;  
+}
+.ly-topbar-center{ 
+    margin:0 auto;  
+    margin-right: 110px;
+}
+.ly-topbar-clear {
+    clear: both;
+}
+.ly-topbar-top-m {
+    margin-top: 5px;
+}
