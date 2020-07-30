@@ -1,7 +1,7 @@
 import React from "react"
 import {
     Persona, Text, FontWeights, Image, Stack, ActionButton
-} from '@fluentui/react';
+} from 'office-ui-fabric-react';
 import { graphql, StaticQuery, navigate } from "gatsby"
 
 export default class Identity extends React.Component {

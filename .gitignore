@@ -1,0 +1,4 @@
+node_modules
+site/public
+site/.cache
+gatsby-theme-yin-fluent/.cache

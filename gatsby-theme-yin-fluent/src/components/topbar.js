@@ -8,7 +8,7 @@ import {
   ActionButton,
   IconButton,
   Stack
-} from '@fluentui/react';
+} from 'office-ui-fabric-react';
 
 const TopBar = ({
   title

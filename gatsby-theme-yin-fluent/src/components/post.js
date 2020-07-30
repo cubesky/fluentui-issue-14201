@@ -1,6 +1,6 @@
 import React from "react"
 import rehypeReact from "rehype-react"
-import { Separator, Text, Persona, PersonaSize, MessageBar, MessageBarType, Stack, Icon } from '@fluentui/react'
+import { Separator, Text, Persona, PersonaSize, MessageBar, MessageBarType, Stack, Icon } from 'office-ui-fabric-react'
 import Disqus from './disqus'
 import License from './license'
 import BuildTime from '../exported/buildtime'

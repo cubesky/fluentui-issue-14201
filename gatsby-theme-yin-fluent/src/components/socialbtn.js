@@ -1,6 +1,6 @@
 import React from "react"
 import { useStaticQuery, graphql } from 'gatsby'
-import { IconButton, Stack, ActionButton } from '@fluentui/react'
+import { IconButton, Stack, ActionButton } from 'office-ui-fabric-react'
 
 const SocialBtn = ({type, align}) => {
     const socials = useStaticQuery(graphql`

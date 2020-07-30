@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import {
     ActionButton, PrimaryButton, DefaultButton, DialogType, Dialog, DialogFooter, ProgressIndicator
-} from '@fluentui/react'
+} from 'office-ui-fabric-react'
 import { useBoolean } from '@uifabric/react-hooks';
 const VRViewBtn = () => {
     const dialogStyles = { main: { maxWidth: 450 } };

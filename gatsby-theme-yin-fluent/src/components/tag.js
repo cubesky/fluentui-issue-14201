@@ -2,7 +2,7 @@ import React from "react"
 import { navigate } from 'gatsby';
 import {
      DocumentCard, DocumentCardTitle
-} from '@fluentui/react';
+} from 'office-ui-fabric-react';
 const Tag = ({tag}) => {
     const onHerfClicked = () => {
         navigate('/tags/' + tag)

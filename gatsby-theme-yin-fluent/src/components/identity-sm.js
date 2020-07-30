@@ -1,7 +1,7 @@
 import React from "react"
 import {
     DocumentCardType,DocumentCardPreview,DocumentCard,DocumentCardActivity,DocumentCardTitle,DocumentCardDetails,ImageFit
-} from '@fluentui/react';
+} from 'office-ui-fabric-react';
 import SocialBtn from './socialbtn'
 import { graphql, useStaticQuery } from "gatsby"
 

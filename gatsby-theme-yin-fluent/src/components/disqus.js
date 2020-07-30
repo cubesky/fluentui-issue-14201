@@ -1,5 +1,5 @@
 import React from "react"
-import { Text, Separator } from '@fluentui/react'
+import { Text, Separator } from 'office-ui-fabric-react'
 import { graphql, useStaticQuery } from 'gatsby';
 import { DiscussionEmbed } from 'disqus-react';
 

@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby';
-import { MessageBar, MessageBarType, Link } from '@fluentui/react'
+import { MessageBar, MessageBarType, Link } from 'office-ui-fabric-react'
 
 const License = ({ pageLicense ,path}) => {
     const globalLicense = useStaticQuery(graphql`

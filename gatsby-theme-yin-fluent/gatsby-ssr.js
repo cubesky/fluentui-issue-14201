@@ -7,6 +7,7 @@ export const replaceRenderer = ({
   replaceBodyHTMLString,
   setHeadComponents,
 }) => {
+
   const { html, css } = renderStatic(() => {
     return renderToString(bodyComponent)
   })

@@ -1,6 +1,6 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import { Fabric, Text, DefaultButton, PrimaryButton, Separator, Stack } from '@fluentui/react'
+import { Fabric, Text, DefaultButton, PrimaryButton, Separator, Stack } from 'office-ui-fabric-react'
 import { graphql, useStaticQuery, navigate } from 'gatsby';
 import Sidebar from './sidebar'
 import Article from './article'

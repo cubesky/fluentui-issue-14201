@@ -1,4 +1,4 @@
-import { initializeIcons, loadTheme } from '@fluentui/react'
+import { initializeIcons, loadTheme } from 'office-ui-fabric-react'
 export function initFluent() {
     initializeIcons()
     const teamsTheme = {

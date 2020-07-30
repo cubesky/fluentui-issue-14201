@@ -4,7 +4,7 @@ import SideNav from './nav'
 import Identity from './identity'
 import SocialBtn from './socialbtn'
 import VRViewBtn from './vrview'
-import { Separator } from '@fluentui/react'
+import { Separator } from 'office-ui-fabric-react'
 
 export default class Sidebar extends React.Component {
     render() {

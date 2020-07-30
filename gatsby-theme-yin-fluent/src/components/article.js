@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, useStaticQuery, navigate } from 'gatsby';
 import {
     ImageFit, DocumentCard, DocumentCardImage, DocumentCardDetails, DocumentCardTitle, DocumentCardActivity
-} from '@fluentui/react';
+} from 'office-ui-fabric-react';
 const Article = ({post}) => {
     const data = useStaticQuery(graphql`
         query {
